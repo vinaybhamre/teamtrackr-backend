@@ -29,7 +29,7 @@ const projectSchema = new Schema<ProjectDocument>(
     },
     workspace: {
       type: Schema.Types.ObjectId,
-      ref: "workspace",
+      ref: "Workspace",
       required: true,
     },
     createdBy: {
